@@ -12,7 +12,7 @@ resource "aws_db_instance" "default" {
   db_subnet_group_name   = aws_db_subnet_group.default.id
   engine                 = "mysql"
   engine_version         = "8.0.20"
-  instance_class         = "db.t2.micro"
+  instance_class         = "db.m5.large"
   multi_az               = true
   name                   = "mydb"
   username               = "molo"

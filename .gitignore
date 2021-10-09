@@ -1,5 +1,5 @@
 .vs_code
-
+*terraform-keys2
 # Terraform gitignore rules, based on github's:
 # https://github.com/github/gitignore/blob/master/Terraform.gitignore
 
